@@ -10,6 +10,8 @@
 	<string>ExchangeAGram</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>6C84F22F2B57DEF3C09F360E5C0CEDD5C2EF91D9</key>
+		<string>https://github.com/cr8stuff/ExchangeAGram.git</string>
 		<key>EB1CDA51C389C2BCF24201A3C1A1CB5AD9CF3C8F</key>
 		<string>https://github.com/cr8stuff/ExchangeAGram.git</string>
 	</dict>
@@ -17,6 +19,8 @@
 	<string>ExchangeAGram.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>6C84F22F2B57DEF3C09F360E5C0CEDD5C2EF91D9</key>
+		<string>../../..</string>
 		<key>EB1CDA51C389C2BCF24201A3C1A1CB5AD9CF3C8F</key>
 		<string>../..</string>
 	</dict>
@@ -28,6 +32,14 @@
 	<string>EB1CDA51C389C2BCF24201A3C1A1CB5AD9CF3C8F</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6C84F22F2B57DEF3C09F360E5C0CEDD5C2EF91D9</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

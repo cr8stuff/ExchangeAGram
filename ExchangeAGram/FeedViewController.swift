@@ -16,7 +16,7 @@ class FeedViewController: UIViewController, UICollectionViewDataSource, UICollec
     @IBOutlet weak var collectionView: UICollectionView!
     var feedArray: [AnyObject] = []
     
-var locationManager: CLLocationManager!
+    var locationManager: CLLocationManager!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +24,8 @@ var locationManager: CLLocationManager!
         locationManager = CLLocationManager()
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        locationManager.requestAlwaysAuthorization()
+        
         locationManager.distanceFilter = 100.0
         locationManager.startUpdatingLocation()
         
