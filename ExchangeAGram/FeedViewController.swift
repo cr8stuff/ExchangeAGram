@@ -14,7 +14,6 @@ import MapKit
 class FeedViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, CLLocationManagerDelegate {
 
     @IBOutlet weak var collectionView: UICollectionView!
-    
     var feedArray: [AnyObject] = []
     
 var locationManager: CLLocationManager!
