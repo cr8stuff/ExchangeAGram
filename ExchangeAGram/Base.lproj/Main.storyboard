@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Lzm-o3-kOM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Lzm-o3-kOM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--Feed View Controller-->
@@ -120,7 +120,7 @@
                         <outlet property="fbLoginView" destination="h57-pK-GGy" id="gAy-Dl-09E"/>
                         <outlet property="nameLabel" destination="yzq-uU-gUJ" id="GeR-4K-JtT"/>
                         <outlet property="profileImageView" destination="LOA-7K-Y9g" id="J0G-I3-dN2"/>
-                        <segue destination="BYF-WO-PSt" kind="show" identifier="mapSeque" id="R4h-b2-VWn"/>
+                        <segue destination="BYF-WO-PSt" kind="show" identifier="mapSegue" id="R4h-b2-VWn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ef8-er-Gnj" userLabel="First Responder" sceneMemberID="firstResponder"/>
