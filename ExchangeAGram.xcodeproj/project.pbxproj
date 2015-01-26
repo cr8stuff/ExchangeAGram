@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		253A3BCB1A7125D3004119AB /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253A3BCA1A7125D3004119AB /* FeedItem.swift */; };
 		253A3BCE1A71352B004119AB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253A3BCD1A71352B004119AB /* ProfileViewController.swift */; };
 		25BA4F221A755A20000F2766 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BA4F211A755A20000F2766 /* MapViewController.swift */; };
 		25BA4F241A755E1F000F2766 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BA4F231A755E1F000F2766 /* MapKit.framework */; };
@@ -23,6 +22,7 @@
 		25FB8C561A5C1D400049AD71 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FB8C551A5C1D400049AD71 /* FilterViewController.swift */; };
 		25FB8C581A5EB22B0049AD71 /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FB8C571A5EB22B0049AD71 /* FilterCell.swift */; };
 		7D2187FE1A7581B300403347 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2187FD1A7581B300403347 /* FacebookSDK.framework */; };
+		7D5F22731A758BDE00DD6676 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5F22721A758BDE00DD6676 /* FeedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		253A3BCA1A7125D3004119AB /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 		253A3BCD1A71352B004119AB /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		25BA4F201A7309B3000F2766 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		25BA4F211A755A20000F2766 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +56,7 @@
 		25FB8C551A5C1D400049AD71 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 		25FB8C571A5EB22B0049AD71 /* FilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
 		7D2187FD1A7581B300403347 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		7D5F22721A758BDE00DD6676 /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				25F4DA1B1A52E6080007939C /* ExchangeAGram.xcdatamodeld */,
-				253A3BCA1A7125D3004119AB /* FeedItem.swift */,
+				7D5F22721A758BDE00DD6676 /* FeedItem.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -260,8 +260,8 @@
 				25F4DA1A1A52E6080007939C /* AppDelegate.swift in Sources */,
 				25F4DA3F1A52EB1A0007939C /* FeedCell.swift in Sources */,
 				25BA4F221A755A20000F2766 /* MapViewController.swift in Sources */,
+				7D5F22731A758BDE00DD6676 /* FeedItem.swift in Sources */,
 				25F4DA3D1A52E8D00007939C /* FeedViewController.swift in Sources */,
-				253A3BCB1A7125D3004119AB /* FeedItem.swift in Sources */,
 				253A3BCE1A71352B004119AB /* ProfileViewController.swift in Sources */,
 				25F4DA1D1A52E6080007939C /* ExchangeAGram.xcdatamodeld in Sources */,
 			);
